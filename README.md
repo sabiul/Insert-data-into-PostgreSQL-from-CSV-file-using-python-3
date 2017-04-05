@@ -5,7 +5,7 @@
 Our aim is to insert data into PostgreSQL database from defferent CSV file.
 
 ## Prerequisites
-To do this work we have to do first install python on our machine also have setup PostgreSQL
+To do this work we have to do first install python on our machine also have setup PostgreSQL and psycopg2
 
 ## Running the tests
  __init__.py in this file we are creating connection with PostgreSQL database also we are creating database in this page name "movie_db"
@@ -21,3 +21,5 @@ Then using forloop we read the data from csv file and then inserting the data by
 1. ![Screenshot of full database](https://github.com/sabiul/Insert-data-into-PostgreSQL-from-CSV-file-using-python-3/blob/master/screenshot/home.png "Screenshot of full database")
 
 2. ![Movies Table](https://github.com/sabiul/Insert-data-into-PostgreSQL-from-CSV-file-using-python-3/blob/master/screenshot/scrn-.png "Movies Table")
+##Future work:
+AWS...........
