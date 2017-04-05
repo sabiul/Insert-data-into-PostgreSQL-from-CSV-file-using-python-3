@@ -2,15 +2,15 @@
 
 
 ## Introduction:
-Our aim is to insert data into MySQL database from defferent CSV file.
+Our aim is to insert data into PostgreSQL database from defferent CSV file.
 
 ## Prerequisites
-To do this work we have to do first install python on our machine also have setup xampp and MySQL.
+To do this work we have to do first install python on our machine also have setup PostgreSQL
 
 ## Running the tests
- __init__.py in this file we are creating connection with MySQL database also we are creating database in this page name "movieRatings"
+ __init__.py in this file we are creating connection with PostgreSQL database also we are creating database in this page name "movie_db"
 
-table_create.py in this python file we are creating tables on database.We are keeping our MySQL queries into a dictionary named"TABLES={}"
+table_create.py in this python file we are creating tables on database.We are keeping our PostgreSQL queries into a dictionary named"TABLES={}"
 By using for loop we are executing the queries into database for creating table.
 
 insert_movies.py in this python file we are creating 4 function for inserting data on 4 different  table from 4 different CSV file.In
